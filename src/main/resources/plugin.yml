@@ -1,0 +1,8 @@
+name: Hello_world
+version: ${project.version}
+main: tutorial.test.hello_world.Hello_world
+commands:
+  test:
+    description: testcommand
+    usage: /<command>
+    default: op
