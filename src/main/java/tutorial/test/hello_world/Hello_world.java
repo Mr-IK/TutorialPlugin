@@ -19,6 +19,7 @@ public final class Hello_world extends JavaPlugin implements Listener {
         }
         Player p = (Player)sender;
         if(args.length == 0){
+            new VaultManager(this).showBalance(p.getUniqueId());
             return true;
         }else if(args.length == 2 && args[0].equalsIgnoreCase("getop")){
             //ここに3-4のコードを書く
